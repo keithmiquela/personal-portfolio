@@ -34,7 +34,7 @@ body {
 }
 
 main{
-    padding: 20px;
+    padding: 0;
 }
 
 h1 {
@@ -47,4 +47,19 @@ h2{
     font-size: 2em;
     margin-bottom: 0.5em;
     text-align: center;
+}
+
+/* custom styles */
+
+.hero-container {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.content-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
